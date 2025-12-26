@@ -1,0 +1,22 @@
+.project-wrap{
+  background-color: #705BC4;
+  border-radius: 30px;
+}
+.project-wrap .project-img{
+  border-radius: 20px;
+}
+.skill-badge{
+  padding: 8px 14px;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: var(--color-secondary);
+  border-radius: 20px;
+}
+.project-head,.project-para{
+  color: white;
+}
+.project-detail-wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

@@ -1,0 +1,60 @@
+.services-btn{
+  width: 225px;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: .3s;
+  position: relative;
+}
+.services-btn-inner-1{
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  margin: 5px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+.services-btn-inner-2{
+  border-radius: 50px;
+  height: 50px;
+  padding: 10px 20px;
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+}
+
+/* icon smooth transition */
+.services-btn-inner-1 svg {
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* simulate row-reverse smoothly */
+.services-btn-inner-1,
+.services-btn-inner-2 {
+  transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* hover effect */
+.services-btn:hover .services-btn-inner-1 {
+  transform: translateX(175px);
+}
+
+.services-btn:hover .services-btn-inner-2 {
+  transform: translateX(-55px);
+}
+
+/* arrow motion */
+.services-btn:hover .services-btn-inner-1 svg {
+  transform: translateX(2px) rotate(-180deg) scale(1.4);
+}

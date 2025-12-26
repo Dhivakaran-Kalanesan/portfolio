@@ -1,0 +1,29 @@
+
+.service-col{
+  border-radius: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 50px;
+}
+.service-icon-wrap{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 50px;
+}
+.service-icon-1-wrap{
+  background-color: #EFECF9;
+}
+.service-icon-2-wrap{
+  background-color: #7E6BCA;
+}
+.service-col-2{
+  background-color: #705BC4;
+}

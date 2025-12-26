@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(assets/fonts/Poppins/Poppins-Regular.ttf);
+}
+
+* {
+  font-family: "Poppins";
+}
+.theme-text-primary{
+  color:  var(--theme-text-primary);
+}
+.theme-text-secondary{
+   color:  var(--theme-text-secondary);
+}
+.theme-primary{
+   background-color:  var(--color-primary);
+}
+.theme-secondary{
+   background-color:  var(--color-secondary);
+}
+.theme-light{
+   background-color:  var(--color-light);
+}
+
+.tracking-tight {
+  letter-spacing: 0.03em;
+}
+/* Add more classes as needed */
