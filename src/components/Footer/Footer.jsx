@@ -67,7 +67,7 @@ export default () => {
               <h5 className="theme-text-primary fw-bold mb-4">Contact</h5>
               <ul type="none" className="m-0 p-0">
                   <li className="mb-3"><Link className="text-decoration-none text-muted" to="/">+91 63828 10681</Link></li>
-                  <li className="mb-3"><Link className="text-decoration-none text-muted" to="/">developerdhiva.com</Link></li>
+                  {/* <li className="mb-3"><Link className="text-decoration-none text-muted" to="/">developerdhiva.com</Link></li> */}
                   <li className="mb-3"><Link className="text-decoration-none text-muted" to="/">dhiva106@gmail.com</Link></li>
                   <li className="mb-3"><Link className="text-decoration-none text-muted" to="/">Panagulam North, Alangudi(Tk), Pudukkottai(Dt), 614624.</Link></li>
               </ul>
