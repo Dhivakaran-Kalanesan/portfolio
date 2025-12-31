@@ -22,7 +22,7 @@ export default () => {
               <ul type="none" className="m-0 p-0">
                   <li className="mb-4 d-flex align-items-center text-white"><span className="me-3 contact-icons"><FaPhoneVolume /></span>+91 63828 10681</li>
                   <li className="mb-4 d-flex align-items-center text-white"><span className="me-3 contact-icons"><FaEnvelopeOpenText /></span>dhiva106@gmail.com</li>
-                  <li className="mb-4 d-flex align-items-center text-white"><span className="me-3 contact-icons"><FaLocationDot /></span>Panangulam North, Alangudi (Tk), Pudukkottai (Dt), 614624.</li>
+                  <li className="mb-4 d-flex align-items-center text-white"><span className="me-3 contact-icons"><FaLocationDot /></span>Pudukkottai (Dt), 614624.</li>
               </ul>
             </div>
           </div>

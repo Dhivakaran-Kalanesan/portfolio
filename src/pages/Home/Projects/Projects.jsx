@@ -31,7 +31,7 @@ function ProjectCard({
 
           {/* Content */}
           <div className="col-md-6">
-            <div className="h-100 project-detail-wrap p-3">
+            <div className="h-100 project-detail-wrap px-md-3 py-md-3 px-0 py-3">
               
               <div className="d-flex gap-3 flex-wrap">
                 {tags.map((tag, index) => (

@@ -9,18 +9,20 @@ export default () => {
         {"id": 3, "name": "REACT JS"},
         {"id": 4, "name": "META API"},
         {"id": 5, "name": "PAYMENT GATEWAYS"},
-        {"id": 6, "name": "SAAS DEVELOPMENT"},
-        {"id": 7, "name": "MICROSERVICES"},
-        {"id": 8, "name": "POS"},
-        {"id": 9, "name": "REST APIS"},
-        {"id": 10, "name": "OPENCART"},
-        {"id": 11, "name": "WORDPRESS"},
-        {"id": 12, "name": "HTML"},
-        {"id": 13, "name": "CSS"},
-        {"id": 14, "name": "BOOTSTRAP"},
-        {"id": 15, "name": "JAVASCRIPT"},
-        {"id": 16, "name": "JQUERY"},
-        {"id": 17, "name": "AJAX"}
+        {"id": 6, "name": "GOOGLE WALLET"},
+        {"id": 7, "name": "APPLE WALLET"},
+        {"id": 8, "name": "SAAS DEVELOPMENT"},
+        {"id": 9, "name": "MICROSERVICES"},
+        {"id": 10, "name": "POS"},
+        {"id": 11, "name": "REST APIS"},
+        {"id": 12, "name": "OPENCART"},
+        {"id": 13, "name": "WORDPRESS"},
+        {"id": 14, "name": "HTML"},
+        {"id": 15, "name": "CSS"},
+        {"id": 16, "name": "BOOTSTRAP"},
+        {"id": 17, "name": "JAVASCRIPT"},
+        {"id": 18, "name": "JQUERY"},
+        {"id": 19, "name": "AJAX"}
     ];
 
   return <>

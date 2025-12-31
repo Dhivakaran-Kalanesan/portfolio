@@ -20,7 +20,7 @@ export default function AboutContainer() {
     ],
     button: {
       text: "Download My CV",
-      link: "/services",
+      link: "/",
     },
   };
 
